@@ -1,0 +1,50 @@
+# All device/user state is private; publish code and examples only.
+.env
+.env.*
+!.env.example
+**/local-access.json
+**/manager-access.json
+**/manager-config.json
+**/config.yaml
+**/config.yaml.*
+**/settings.json*
+**/secrets.json*
+**/auth/
+**/data/
+**/backups/
+**/st-backups/
+**/logs/
+**/*.log
+**/verification.json
+**/*verification*.json
+**/test-results.txt
+**/.test-run-*/
+**/node_modules/
+# Never publish existing application signing identities.
+**/signing/
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.pfx
+**/*.pem
+**/*.key
+**/password.txt
+# Generated Android and distribution outputs.
+**/out/
+**/gen/
+**/classes/
+**/build/
+**/*.apk
+**/*.idsig
+**/*.dex
+**/*.class
+**/*.zip
+**/*.tar
+**/*.tar.gz
+# Screenshots, UI dumps and local/editor metadata.
+**/phone-*
+**/*.xml.dump
+**/.DS_Store
+**/Thumbs.db
+.vscode/
+.idea/

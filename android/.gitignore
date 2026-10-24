@@ -1,0 +1,17 @@
+# Local build outputs and per-project private signing material
+**/out/
+**/gen/
+**/classes/
+**/signing/
+**/*.jks
+**/*.keystore
+**/*.apk
+**/*.aab
+**/*.idsig
+**/*.class
+**/*.dex
+**/.env
+**/.env.*
+**/password.env
+**/manager-config.json
+local.properties

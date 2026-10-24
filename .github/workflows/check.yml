@@ -1,0 +1,20 @@
+name: Source checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Syntax
+        run: npm run check
+      - name: Isolated contracts
+        run: npm test
+      - name: Public-source privacy scan
+        run: npm run privacy:check

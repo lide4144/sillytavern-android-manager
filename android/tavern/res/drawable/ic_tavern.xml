@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Original geometric icon for this source distribution. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#201B32" android:pathData="M0,0h108v108h-108z" />
+    <path android:fillColor="#CDB1F3" android:pathData="M29,28h42v44h-42zM71,36h13v28h-13v-8h5v-12h-5z" />
+    <path android:fillColor="#F5E8FF" android:pathData="M25,23h50v10h-50zM34,72h36v8h-36z" />
+    <path android:fillColor="#69548C" android:pathData="M38,40h6v23h-6zM54,40h6v23h-6z" />
+</vector>

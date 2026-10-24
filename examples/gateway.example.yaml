@@ -1,0 +1,27 @@
+# CLIProxyAPI v8 configuration template, NOT a deployed configuration.
+config-version: 8
+server:
+  host: 127.0.0.1
+  port: 8317
+management:
+  allow-remote: false
+  secret-key: REPLACE_WITH_RANDOM_MANAGEMENT_KEY
+  disable-auto-update-panel: true
+access:
+  api-keys:
+    - REPLACE_WITH_RANDOM_CLIENT_KEY
+oauth:
+  auth-dir: /opt/st-subscription-proxy/auth
+  providers:
+    antigravity:
+      antigravity-credits: false
+routing:
+  strategy: fill-first
+  retry:
+    request-retry: 0
+observability:
+  logs:
+    debug: false
+    request-log: false
+plugins:
+  enabled: false

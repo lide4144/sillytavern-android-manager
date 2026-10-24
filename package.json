@@ -1,0 +1,14 @@
+{
+  "name": "sillytavern-android-manager",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Phone-local SillyTavern Android shells and subscription gateway manager; source-only distribution",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "start": "node manager/server.mjs",
+    "test": "node --test manager/server.test.mjs",
+    "check": "node --check manager/server.mjs && node --check manager/device-login.mjs && node --check manager/public/app.js",
+    "privacy:check": "node scripts/privacy-check.mjs"
+  }
+}
